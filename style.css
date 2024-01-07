@@ -165,11 +165,12 @@ nav a:hover{
 }
 .filmes{
  position: absolute;
- left: -6%;
+ left: 0;
  display: flex;
  justify-content: space-around;
  top: 162%;
  padding: 0 10%;
+ width: 100%;
  
 }
 .filmes h2{
@@ -185,6 +186,7 @@ nav a:hover{
     height: 150px;
     border: 2px solid #fff;
     border-radius: 12px;
+   
     
 }
 .filmes a{
