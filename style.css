@@ -179,6 +179,7 @@ nav a:hover{
     top: -30%;
     transform: translate(-50%);
     color: #fff;
+    
 }
 .filmes img{
     margin: 10px;
@@ -206,39 +207,47 @@ nav a:hover{
         position: absolute;
         top: 43%;
     }
+    
     .fundo-de-filmes img {
         display: none;
     }
+    
     .filmes{
         position: absolute;
         top: 50%;
-        left: -6%;
+        left: 0;
         display: flex;
         justify-content: center;
         text-align: center;
         align-items: center;
         flex-wrap: wrap;
         background-color: #000;
-        padding: 0 4%;
-       
-        
-        
+        padding: auto 0;
     }
+    
     .filmes img{
         margin: 15px;
-        width: 98%;
+        width: 100%;
         height: 100%;
+        position: relative;
+        left: -5%;
+        
+        
     }
+    
     .filmes h2{
         position: absolute;
-        top: -1.2%;
-        left: 52%;
+        top: -1.4%;
         white-space: nowrap;
         font-size: 18px;
         background-color: #fff;
         color: #000;
-        width: 96%;
+        width: 112%;
         padding: 15px;
+    }
+
+    .filmes a{
+        padding-bottom: 4%;
     }
    
 }
@@ -281,19 +290,20 @@ nav a:hover{
 @media screen and (max-width:768px) {
     .sobre{
         position: absolute;
-        top: 690%;
+        top: 600%;
         left: 0;
         display: block;
         width: 100%;
-        padding: 15% 2%;
+        padding: 18% 5%;
         }
         .sobre img{
             width: 100%;
         }
         .sobre h2{
             position: absolute;
-            top: 0.5%;
+            top: 0.8%;
            left: 40%;
+           padding: 2% 0;
         }
         .sobre h3{
             padding: 8%;
@@ -323,7 +333,7 @@ nav a:hover{
 @media screen and (max-width:768px){
  .galeria{
     position: absolute;
-    top: 908%;
+    top: 823%;
     padding: 2% 0;
  } 
  .galeria h2{
