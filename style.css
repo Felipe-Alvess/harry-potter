@@ -11,7 +11,7 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #333;
-    overflow-x: hidden;
+    
     scroll-behavior: smooth;
 }
 /* titulo */
@@ -29,7 +29,7 @@ body{
     width: 40px;
     border-radius: 50%;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
     .titulo{
         font-size: 13px;
         align-items: center;
@@ -66,7 +66,7 @@ nav a:hover{
     color: #fff;
     border-bottom: 4px solid red;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
     nav a{
         display: none;
     }
@@ -86,7 +86,7 @@ nav a:hover{
     align-items: center;
    
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
     .dropdown{
         display: block;
     }
@@ -128,7 +128,7 @@ nav a:hover{
     color: #000;
     font-weight: bold;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
     .sub-menu{
         display: block;
     }
@@ -147,9 +147,9 @@ nav a:hover{
 
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
     .foto-fundo img{
-        width: 100%;
+        width: 100vw;
         height: 28.7vh;
         
     }
@@ -202,7 +202,7 @@ nav a:hover{
         
        }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
     .fundo-de-filmes{
         position: absolute;
         top: 43%;
@@ -231,8 +231,6 @@ nav a:hover{
         height: 100%;
         position: relative;
         left: -5%;
-        
-        
     }
     
     .filmes h2{
@@ -242,7 +240,7 @@ nav a:hover{
         font-size: 18px;
         background-color: #fff;
         color: #000;
-        width: 112%;
+        width: 100%;
         padding: 15px;
     }
 
@@ -254,17 +252,17 @@ nav a:hover{
 /* foto de fubndo */
 
 /* sobre */
-
 .sobre{
-    position: absolute;
-    top: 225%;
-    left: 2.5%;
     background-color: #ddd;
     display: flex;
-    padding: 5%;
+    flex-direction: row;
+    padding:5%;
     gap: 20px;
-    width: 95%;
+    position: absolute;
+    top: 225%;
+    width: 100%;
 }
+
 .sobre h2{
     position: absolute;
     left: 50%;
@@ -273,6 +271,7 @@ nav a:hover{
 }
 .sobre img{
     width: 400px;
+    padding: 0 10px;
 }
 .sobre p{
     display: flex;
@@ -287,7 +286,7 @@ nav a:hover{
     left: 50%;
     transform: translate(-50%);
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
     .sobre{
         position: absolute;
         top: 600%;
@@ -330,7 +329,7 @@ nav a:hover{
     border-radius: 10px;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:500px){
  .galeria{
     position: absolute;
     top: 823%;
