@@ -195,7 +195,7 @@ nav a:hover{
     color: #fff;
     
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width:500px) {
     .filmes img:hover{
         transition: 1s ease ;
         padding: 5%;
@@ -235,7 +235,7 @@ nav a:hover{
     
     .filmes h2{
         position: absolute;
-        top: -1.4%;
+        top: -1%;
         white-space: nowrap;
         font-size: 18px;
         background-color: #fff;
@@ -289,7 +289,7 @@ nav a:hover{
 @media screen and (max-width:500px) {
     .sobre{
         position: absolute;
-        top: 600%;
+        top: 610%;
         left: 0;
         display: block;
         width: 100%;
@@ -317,7 +317,7 @@ nav a:hover{
 .galeria{
     position: absolute;
     background-color: #ddd;
-    top: 320%;
+    top: 310%;
     padding: 4% 0;
     width: 100%;
 }
