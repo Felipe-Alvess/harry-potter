@@ -261,6 +261,7 @@ nav a:hover{
     position: absolute;
     top: 225%;
     width: 100%;
+    
 }
 
 .sobre h2{
@@ -268,6 +269,7 @@ nav a:hover{
     left: 50%;
     top: 2%;
     color: #000;
+    
 }
 .sobre img{
     width: 400px;
@@ -332,7 +334,7 @@ nav a:hover{
 @media screen and (max-width:500px){
  .galeria{
     position: absolute;
-    top: 823%;
+    top: 810%;
     padding: 2% 0;
  } 
  .galeria h2{
