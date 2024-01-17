@@ -11,9 +11,12 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #333;
-    
+}
+
+html,body {
     scroll-behavior: smooth;
 }
+
 /* titulo */
 .titulo{
     background-color: #333;
@@ -256,11 +259,12 @@ nav a:hover{
     background-color: #ddd;
     display: flex;
     flex-direction: row;
-    padding:5%;
+    padding:5% 2%;
     gap: 20px;
     position: absolute;
     top: 225%;
-    width: 100%;
+    left: 1%;
+    width: 97vw;
     
 }
 
@@ -291,7 +295,7 @@ nav a:hover{
 @media screen and (max-width:500px) {
     .sobre{
         position: absolute;
-        top: 605%;
+        top: 600%;
         left: 0;
         display: block;
         width: 100%;
@@ -334,7 +338,7 @@ nav a:hover{
 @media screen and (max-width:500px){
  .galeria{
     position: absolute;
-    top: 810%;
+    top: 800%;
     padding: 2% 0;
  } 
  .galeria h2{
