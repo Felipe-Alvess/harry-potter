@@ -297,7 +297,7 @@ nav a:hover{
 @media screen and (max-width:500px) {
     .sobre{
         position: absolute;
-        top: 605%;
+        top: 604.5%;
         left: 0;
         display: block;
         width: 100%;
@@ -340,7 +340,7 @@ nav a:hover{
 @media screen and (max-width:500px){
  .galeria{
     position: absolute;
-    top: 795%;
+    top: 794%;
     padding: 2% 0;
  } 
  .galeria h2{
@@ -351,3 +351,99 @@ nav a:hover{
 
 
 /* fotos do site */
+
+@media screen and (max-width: 768px) {
+
+    .foto-fundo img{
+        width: 100vw;
+        height: 28.7vh;
+        
+    }
+
+    .filmes img:hover{
+        transition: 1s ease ;
+        padding: 5%;
+        
+       }
+
+    .fundo-de-filmes{
+        position: absolute;
+        top: 43%;
+    }
+    
+    .fundo-de-filmes img {
+        display: none;
+    }
+    
+    .filmes{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #000;
+        padding: auto 0;
+    }
+    
+    .filmes img{
+        margin: 15px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        left: -5%;
+    }
+    
+    .filmes h2{
+        position: absolute;
+        top: -1%;
+        white-space: nowrap;
+        font-size: 18px;
+        background-color: #fff;
+        color: #000;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .filmes a{
+        padding-bottom: 4%;
+    }
+
+    .sobre{
+        position: absolute;
+        top: 605%;
+        left: 0;
+        display: block;
+        width: 100%;
+        padding: 18% 5%;
+        }
+        .sobre img{
+            width: 100%;
+        }
+        .sobre h2{
+            position: absolute;
+            top: 0.8%;
+           left: 40%;
+           padding: 2% 0;
+        }
+        .sobre h3{
+            padding: 8%;
+            white-space: nowrap;
+        }
+
+        .galeria{
+            position: absolute;
+            top: 795%;
+            padding: 2% 0;
+         } 
+         .galeria h2{
+            padding: 2%;
+         }
+}
+    
+  
+    
+    
+
